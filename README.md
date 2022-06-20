@@ -1,3 +1,11 @@
+# Ajoneuvo-Antero
+
+You can store information of your vehicles in here.
+
+This project is just quickly put together to show something with React.js.
+It is only front end. There is no backend or database.
+It is not finished or polished in any way.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
