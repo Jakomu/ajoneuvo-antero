@@ -40,6 +40,7 @@ const AddVehicleForm = ({ addNewVehicle }) => {
   return (
     <div>
       <form onSubmit={addVehicle}>
+        <h3>Lisää uuden ajoneuvon tiedot:</h3>
         <label>Nimi: </label>
         <input
           type="text"
@@ -48,7 +49,6 @@ const AddVehicleForm = ({ addNewVehicle }) => {
           value={name}
           onChange={handleNameChange}
         ></input>
-        <br />
         <label>Rekisterinumero: </label>
         <input
           type="text"
@@ -57,7 +57,6 @@ const AddVehicleForm = ({ addNewVehicle }) => {
           value={regNum}
           onChange={handleRegNumChange}
         ></input>
-        <br />
         <label>Kilometrit: </label>
         <input
           type="number"
@@ -66,7 +65,6 @@ const AddVehicleForm = ({ addNewVehicle }) => {
           value={km}
           onChange={handleKmChange}
         ></input>
-        <br />
         <label>Lisätiedot: </label>
         <textarea
           rows="5"
